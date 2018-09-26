@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-tel",
+  "version": "1.0.0",
+  "description": "Projeto de teste da API para a Bliive",
+  "author": "Fernando Augusto Zamperin Penna <fernando@oniq.com.br>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "test": "nyc --reporter=html mocha -c --recursive --exit",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "~1.18.2",
+    "debug": "~2.6.9",
+    "express": "~4.16.3",
+    "gulp": "^3.9.1",
+    "jsonwebtoken": "^8.2.1",
+    "morgan": "~1.9.0",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.37.7",
+    "sequelize-cli": "^4.0.0",
+    "serve-favicon": "~2.4.5"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "eslint": "^5.2.0",
+    "mocha": "^5.1.1",
+    "nodemon": "^1.17.4",
+    "nyc": "^11.7.1"
+  }
+}
